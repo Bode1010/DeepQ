@@ -1,0 +1,8 @@
+DeepQ.sln
+Debug/
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+SFML
+

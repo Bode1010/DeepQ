@@ -1,0 +1,8 @@
+maxRepMemSize = 600
+stepsBeforeUpdate = 3;
+sizeOfBatch = 5;
+expDecayRate = 0.005
+discountRate = 0.999
+maxStepsPerEpisode = 20
+
+10 neuron tanh hidden layer, no batchnorm. growth rate 0.01
