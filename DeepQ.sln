@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeepQ", "DeepQ\DeepQ.vcxproj", "{F989A2F7-88DF-4B99-9B52-570D059F88C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F989A2F7-88DF-4B99-9B52-570D059F88C6}.Debug|x64.ActiveCfg = Debug|x64
+		{F989A2F7-88DF-4B99-9B52-570D059F88C6}.Debug|x64.Build.0 = Debug|x64
+		{F989A2F7-88DF-4B99-9B52-570D059F88C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{F989A2F7-88DF-4B99-9B52-570D059F88C6}.Debug|x86.Build.0 = Debug|Win32
+		{F989A2F7-88DF-4B99-9B52-570D059F88C6}.Release|x64.ActiveCfg = Release|x64
+		{F989A2F7-88DF-4B99-9B52-570D059F88C6}.Release|x64.Build.0 = Release|x64
+		{F989A2F7-88DF-4B99-9B52-570D059F88C6}.Release|x86.ActiveCfg = Release|Win32
+		{F989A2F7-88DF-4B99-9B52-570D059F88C6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC5F254B-7AB3-45E4-981C-A96FA10A5D10}
+	EndGlobalSection
+EndGlobal
