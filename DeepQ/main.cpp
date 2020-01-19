@@ -57,7 +57,7 @@ int main() {
 	//Play game with trained DQN
 	DeepQ.Play();
 
-	cout << "Program Terminated" << endl;
+	cout << "Program Ended" << endl;
 	cin.get();
 	return 0;
 }
