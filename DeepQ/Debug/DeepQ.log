@@ -1,175 +1,36 @@
-﻿  CarGame.cpp
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGameUtil.h(8,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+﻿  QLearn.cpp
 C:\Users\olabo\source\repos\DeepQ\DeepQ\Util.h(17,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.h(117,26): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(81,27): warning C4305: 'initializing': truncation from 'double' to 'const float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(90,26): warning C4305: 'initializing': truncation from 'double' to 'const float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(91,27): warning C4305: 'initializing': truncation from 'double' to 'const float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(93,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(57,24): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(58,23): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(64,25): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(65,28): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(66,32): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(77,1): warning C4010: single-line comment contains line-continuation character
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1104,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1114,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1120,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1186,34): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1187,37): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1187,21): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1301,39): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1302,54): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1302,38): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1313,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1323,41): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1324,59): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1324,43): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1385,44): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1390,95): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.h(75,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.h(77,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(23,17): warning C4018: '<': signed/unsigned mismatch
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(58,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(78,36): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(123,20): warning C4018: '>': signed/unsigned mismatch
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(177,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(178,23): warning C4244: 'argument': conversion from '_Ty' to 'const _Ty', possible loss of data
           with
           [
-              T=int
+              _Ty=int
           ]
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1390,64): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-          with
+          and
           [
-              T=int
+              _Ty=float
           ]
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1452,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.cpp(1462,20): warning C4018: '<': signed/unsigned mismatch
-  CarGameUtil.cpp
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGameUtil.h(8,36): warning C4305: 'initializing': truncation from 'double' to 'float'
-  LizardGame.cpp
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Util.h(17,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\LizardGame.cpp(61,18): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\LizardGame.cpp(66,19): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\LizardGame.cpp(72,20): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(186,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(202,29): warning C4018: '<': signed/unsigned mismatch
   main.cpp
 C:\Users\olabo\source\repos\DeepQ\DeepQ\Util.h(17,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.h(117,26): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.h(56,35): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.h(58,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.h(75,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.h(77,25): warning C4305: 'initializing': truncation from 'double' to 'float'
 C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGameUtil.h(8,36): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(81,27): warning C4305: 'initializing': truncation from 'double' to 'const float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(90,26): warning C4305: 'initializing': truncation from 'double' to 'const float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(91,27): warning C4305: 'initializing': truncation from 'double' to 'const float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(93,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\main.cpp(6,1): warning C4010: single-line comment contains line-continuation character
-C:\Users\olabo\source\repos\DeepQ\DeepQ\main.cpp(9,1): warning C4010: single-line comment contains line-continuation character
-C:\Users\olabo\source\repos\DeepQ\DeepQ\main.cpp(10,1): warning C4010: single-line comment contains line-continuation character
-C:\Users\olabo\source\repos\DeepQ\DeepQ\main.cpp(19,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Matrix.cpp
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(6,30): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(8,31): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(9,50): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=float
-          ]
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(14,30): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(16,31): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(56,55): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(93,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(94,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(95,45): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=float
-          ]
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(103,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(104,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(105,45): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=float
-          ]
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(116,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(117,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Matrix.cpp(125,20): warning C4018: '<': signed/unsigned mismatch
-  NNet.cpp
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.h(117,26): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(58,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(223,1): warning C4010: single-line comment contains line-continuation character
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(224,1): warning C4010: single-line comment contains line-continuation character
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(225,1): warning C4010: single-line comment contains line-continuation character
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(226,1): warning C4010: single-line comment contains line-continuation character
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(305,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(311,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(324,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(329,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(337,54): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(358,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(364,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(375,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(380,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(388,54): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(404,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(416,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(431,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(476,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(492,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(504,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(519,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(569,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(630,29): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(666,29): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(670,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(670,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(724,20): warning C4018: '<': signed/unsigned mismatch
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\utility(149,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-          and
-          [
-              _Ty1=float
-          ]
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(16): message : see reference to function template instantiation 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
-          with
-          [
-              _Other1=int,
-              _Other2=int
-          ]
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(16): message : see reference to function template instantiation 'std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
-          with
-          [
-              _Other1=int,
-              _Other2=int
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(632): message : see reference to class template instantiation 'std::chrono::duration<double,std::ratio<1,1>>' being compiled
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(178): message : see reference to class template instantiation 'std::chrono::duration<__int64,std::nano>' being compiled
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\chrono(610): message : see reference to class template instantiation 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>' being compiled
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\utility(149,1): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-          and
-          [
-              _Ty2=float
-          ]
-  QLearn.cpp
-C:\Users\olabo\source\repos\DeepQ\DeepQ\Util.h(17,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.h(117,26): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.h(56,35): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.h(58,25): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(26,17): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(61,31): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(141,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(142,23): warning C4244: 'argument': conversion from '_Ty' to 'const _Ty', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-          and
-          [
-              _Ty=float
-          ]
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(150,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\olabo\source\repos\DeepQ\DeepQ\QLearn.cpp(166,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(82,27): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(91,26): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(92,27): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\olabo\source\repos\DeepQ\DeepQ\CarGame.h(94,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\olabo\source\repos\DeepQ\DeepQ\NeuralNet.h(13,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\olabo\source\repos\DeepQ\DeepQ\NeuralNet.h(17,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\olabo\source\repos\DeepQ\DeepQ\main.cpp(7,1): warning C4010: single-line comment contains line-continuation character
+C:\Users\olabo\source\repos\DeepQ\DeepQ\main.cpp(16,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\olabo\source\repos\DeepQ\DeepQ\main.cpp(33,6): warning C4101: 'duration': unreferenced local variable
   Generating Code...
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(45): warning C4715: 'Layer::Activate': not all control paths return a value
-C:\Users\olabo\source\repos\DeepQ\DeepQ\NNet.cpp(55): warning C4715: 'Layer::dActivate': not all control paths return a value
   DeepQ.vcxproj -> C:\Users\olabo\source\repos\DeepQ\Debug\DeepQ.exe

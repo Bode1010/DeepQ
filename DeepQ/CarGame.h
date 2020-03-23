@@ -7,7 +7,7 @@
 #include <math.h>
 #include "CarGameUtil.h"
 #include "Game.h"
-#include "NNet.h"
+#include "NeuralNetwork.h"
 
 /*Action Index:
 //0 = w/up
@@ -27,11 +27,12 @@ public:
 	void reset();
 	void Display();
 	void endDisplay();
+	int getStateSize();
 	void DrawGameUser();
 	int getActionSize();
 	Packet step(Action);
 	State getStartState();
-	void DrawGameAI(NNet & obj);
+	void DrawGameAI(NeuralNetwork & obj);
 	CarGame(sf::RenderWindow *wind);
 	Action getRandAction(State state);
 

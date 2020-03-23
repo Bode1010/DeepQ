@@ -33,7 +33,13 @@
     <ClCompile Include="CarGameUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NNet.cpp">
+    <ClCompile Include="SimHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,7 +65,13 @@
     <ClInclude Include="CarGameUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NNet.h">
+    <ClInclude Include="SimHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

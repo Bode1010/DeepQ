@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Matrix.h"//for matrix math
+#include "NeuralNetwork.h"//interface
 #include <math.h>//for activation functions
 #include <thread>//For multithreading
 #include <future>//for myltithreading
@@ -26,12 +27,6 @@ enum LayerType {
 	DENSE
 };
 
-struct OneOutput {
-	OneOutput();
-	OneOutput(float val1, int index1);
-	float val;//value of the output
-	int index;//which output it is
-};
 
 class Layer
 {
@@ -71,17 +66,18 @@ private:
 	float TanhDActivate(float);
 };
 
-class NNet
+class NNet : public NeuralNetwork
 {
 public:
 	NNet() {};
 	NNet(vector<Layer> layout);
+	void SetCostFuncDerivative(float (*func)(float, float), float, float) {};
 	//trains with one output neuron instead of all of them.
-	void trainWithOneOutput(vector<vector<float>> inputs, vector<OneOutput> outputs);
+	void trainWithOneOutput(const vector<vector<float>>& inputs, const vector<OneOutput>& outputs);
 	//Updates the weights in the network
-	void train(vector<vector<float>> inputs, vector<vector<float>> outputs);
+	void train(const vector<vector<float>>& inputs, const vector<vector<float>>& outputs);
 	//Used for forward passes through the network
-	void feedForward(vector<float> input);
+	void feedForward(const vector<float>& input);
 	//used to assign nets to other nets
 	void operator=(const NNet &obj);
 	//returns a vector of the output. Used after a forward pass (ie feedforward function)
@@ -92,10 +88,8 @@ public:
 	float getMaxOutput();
 	//Prints output in a straight line
 	void printOutput();
-	//Pretty self Explanatory tbh
-	bool saveFilePresent();
-	void save();
-	void load();
+	void save(string);
+	bool load(string);
 	//Prints every weight. Used for debugging
 	void visualize();
 	~NNet();

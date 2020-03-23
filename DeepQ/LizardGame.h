@@ -11,6 +11,7 @@ public:
 	LizardGame();
 	void reset();
 	void Display();
+	int getStateSize();
 	void endDisplay();
 	int getActionSize();
 	Packet step(Action);

@@ -1,13 +1,5 @@
 #include "NNet.h"
 
-OneOutput::OneOutput() {
-}
-
-OneOutput::OneOutput(float val1, int index1) {
-	val = val1; 
-	index = index1;
-}
-
 Layer::Layer(LayerType Type, int Size, Activation act, bool batchNorm) {
 	type = Type; mySize = Size; activate = act; this->batchNorm = batchNorm;
 	bn.first = 1;
@@ -132,9 +124,11 @@ void NNet::feedForwardTrain(vector<float> input, vector<Layer> &layers) {
 	}
 }
 
-void NNet::feedForward(vector<float> input) {
+void NNet::feedForward(const vector<float>& input) {
 	try {
 		if (input.size() != network[0].neurons.size()) {
+			cout << "INput: " << input.size() << endl;
+			cout << "set size: " << network[0].neurons.size() << endl;
 			throw - 3;
 		}
 
@@ -186,7 +180,7 @@ void NNet::feedForward(vector<float> input) {
 //Works with a batch of input. Takes a single step per batch
 //Note, for batchnormed layers, their gradient descent d_activates their batchnormed values.
 //Insted, we should skip the deactivation for layers that are batch normed
-void NNet::train(vector<vector<float>> input, vector<vector<float>> output) {
+void NNet::train(const vector<vector<float>>& input, const vector<vector<float>>& output) {
 	if (input.size() != output.size()) {
 		cout << "Training input batch != Training output batch" << endl;
 	}
@@ -347,7 +341,7 @@ void NNet::train(vector<vector<float>> input, vector<vector<float>> output) {
 }
 
 //Trains the network with only one output neuron. Usually used on networks with more than one output neuron. Works with batches
-void NNet::trainWithOneOutput(vector<vector<float>> input, vector<OneOutput> output) {
+void NNet::trainWithOneOutput(const vector<vector<float>>& input, const vector<OneOutput>& output) {
 	//Create threads for each input stored in a vector of threads, feed forward and back propagate and calculate changes to be made
 	vector<future<pair<wArray, vector<doublef>>>> updateCalcThreads;
 	for (unsigned int i = 0; i < input.size(); i++) {
@@ -577,7 +571,7 @@ pair<wArray, vector<doublef>> NNet::FFandBPWithOneOutput(vector<float> input, On
 	return result;
 }
 
-void NNet::save() {
+void NNet::save(string) {
 	char ans = 'M';
 	while (ans != 'Y' && ans != 'N') {
 		cout << "Save trained network ? Y / N" << endl;
@@ -611,14 +605,11 @@ void NNet::save() {
 	}
 }
 
-bool NNet::saveFilePresent() {
+bool NNet::load(string) {
 	fstream file;
 	file.open(saveFile);
 	if (file.fail()) return false;
-	return true;
-}
 
-void NNet::load() {
 	ifstream rd(saveFile);
 	vector<Layer> rdlayers;
 	wArray rdweights;
@@ -678,6 +669,7 @@ void NNet::load() {
 		rdweights.push_back(temp);
 	}
 	weights = rdweights;
+	return true;
 }
 
 void NNet::operator=(const NNet &c) {

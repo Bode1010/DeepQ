@@ -8,6 +8,8 @@ LizardGame::LizardGame()
 	reset();
 }
 
+int LizardGame::getStateSize() { return 16; }
+
 void LizardGame::reset() {
 	playerLoc = 0;
 	done = false;

@@ -218,6 +218,8 @@ int CarGame::getActionSize() {
 	return 6;
 }
 
+int CarGame::getStateSize() { return 7; }
+
 /*Action Index:
 //0 = w/up
 //1 = a/left
@@ -789,7 +791,7 @@ void CarGame::DrawGameUser() {
 	wd->close();
 }
 
-void CarGame::DrawGameAI(NNet &myNet) {
+void CarGame::DrawGameAI(NeuralNetwork &myNet) {
 	int xDim = wd->getSize().x;
 	int yDim = wd->getSize().y;
 	reset();
